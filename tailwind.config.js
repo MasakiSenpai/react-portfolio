@@ -14,6 +14,12 @@ module.exports = {
         'thistle': '#ceb1be',
         'lavender': '#f1e4e8',
         'platinum': '#e2dcde',
+        'powder': '#a7bbec',
+        'ash': '#cad2c5',
+        'cambridge': '#84a98c',
+        'green': '#52796f',
+        'pale': '#f4d8cd',
+        'ivory': '#fffff2',
       },
       fontFamily: {
         'neon': ['Titl Neon']

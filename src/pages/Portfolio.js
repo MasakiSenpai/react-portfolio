@@ -3,12 +3,9 @@ import React from "react";
 export default function Portfolio() {
     return (
         <div className='h-100'>
-            <div className='border border-4 border-rose bg-lavender p-12'>
+            <div className='border border-4 border-green bg-ash p-12'>
                 <img src='../images/Snapchat.jpg' alt='Headshot'></img>
-            </div>
-            <div className='border border-4 border-rose bg-lavender p-12'>
-                <h2> Hey, My name is Amanda </h2>
-                <p> Nice to meet you. I am a junior web devloper who loves never leaving my house. </p>
+                <h2 className='text-xl'> Fiesta Collector </h2>
             </div>
         </div>
     )

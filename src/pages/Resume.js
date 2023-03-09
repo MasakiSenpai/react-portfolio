@@ -1,14 +1,19 @@
-import React from "react";
+import React from 'react';
+import reactImg from '../images/react.svg'
 
 export default function Resume() {
     return (
         <div className='h-100'>
-            <div className='border border-4 border-rose bg-lavender p-12'>
-                <img src='../images/Snapchat.jpg' alt='Headshot'></img>
+            <div>
+                <img src={reactImg} alt='react'/>
             </div>
-            <div className='border border-4 border-rose bg-lavender p-12'>
-                <h2> Hey, My name is Amanda </h2>
-                <p> Nice to meet you. I am a junior web devloper who loves never leaving my house. </p>
+            <div className='border border-4 border-tropical bg-lavender p-12'>
+                <h2 className='text-3xl mb-3'> Front End </h2>
+                <p className='text-'> React, TailWindCss, Bootstrap, HTML, CSS </p>
+            </div>
+            <div className='border border-4 border-tropical bg-lavender p-12'>
+                <h2 className='text-3xl mb-3'> Back End </h2>
+                <p className='text-'> Sql, Mongoose, NodeJs, Express  </p>
             </div>
         </div>
     )
