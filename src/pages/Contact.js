@@ -5,7 +5,7 @@ export default function Contact() {
     return (
         <div className='h-100'>
             <div className='border border-4 border-steel bg-pblue p-12 flex flex-col text-center'>
-                <div className='w-100 flex justify-center'>
+                <div className='w-100 flex justify-center mb-8'>
                     <img src={social} alt='social media' className=''/>
                 </div>
                 <p className='text-2xl text-blue-400 md:text-4xl'> I'll be hiding in these places </p>
