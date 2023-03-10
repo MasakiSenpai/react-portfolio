@@ -9,8 +9,8 @@ export default function Home() {
             </div>
             <div className='flex justify-center my-5 mb-10'> 
                 <div className='border border-4 border-rose bg-red-100 p-12 text-center max-w-[420px]'>
-                    <h2 className='font-neon'> Hey, My name is Amanda </h2>
-                    <p className='font-neon'> Nice to meet you. I am a junior web devloper with the MERN stack who loves never leaving my house.
+                    <h2> Hey, My name is Amanda </h2>
+                    <p> Nice to meet you. I am a junior web devloper with the MERN stack who loves never leaving my house.
                         Recently graduated from Georgia Tech Full Stack Web Devlopemt BootCamp! ♪ \(´。`˵)／♪ </p>
                 </div>
             </div>

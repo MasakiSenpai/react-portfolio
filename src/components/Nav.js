@@ -16,22 +16,22 @@ export default function Nav() {
 
     return (
         <div  className='bg-raisin h-24 flex flex-wrap justify-around items-center'>
-            <Link  to='/react-portfolio' className='text-white font-neon hover:text-rose'>
+            <Link  to='/react-portfolio' className='text-white hover:text-rose'>
                <div className='nav active'>
                     About me
                </div>
             </Link>
-            <Link to='/react-portfolio/portfolio' className='text-white font-neon hover:text-cambridge'>
+            <Link to='/react-portfolio/portfolio' className='text-white hover:text-cambridge'>
                 <div className='nav'>
                     Portfolio
                 </div>
             </Link>
-            <Link to='/react-portfolio/contact' className='text-white font-neon hover:text-blue-400'>
+            <Link to='/react-portfolio/contact' className='text-white hover:text-blue-400'>
                 <div className='nav'>
                     Contact
                 </div>
             </Link>
-            <Link to='/react-portfolio/resume' className='text-white font-neon hover:text-tropical'>
+            <Link to='/react-portfolio/resume' className='text-white hover:text-tropical'>
                 <div className='nav'>
                     Resume
                 </div>
