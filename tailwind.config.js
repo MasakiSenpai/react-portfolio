@@ -20,6 +20,7 @@ module.exports = {
         'green': '#52796f',
         'pale': '#f4d8cd',
         'ivory': '#fffff2',
+        'pblue': '#acbed8'
       },
       fontFamily: {
         'neon': ['Titl Neon']
