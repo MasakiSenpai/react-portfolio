@@ -5,7 +5,6 @@ import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
-// import Project from './components/Project';
 
 function App() {
   return (
